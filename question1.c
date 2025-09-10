@@ -38,8 +38,8 @@ int main() {
     int len2 = strlen(num2);
     char result[max(len1, len2) + 2]; // 结果数组
     
-    char* sum = addStrings(num1, len1, num2, len2, result);
+    addStrings(num1, len1, num2, len2, result);
 
-    printf("%s", sum);
+    printf("%s", result);
     return 0;
 }
